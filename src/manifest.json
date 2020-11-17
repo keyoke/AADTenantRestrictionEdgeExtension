@@ -1,0 +1,17 @@
+{
+    "name": "Enforce Tenant Restriction",
+    "version": "0.0.0.1",
+    "manifest_version": 2,
+    "description": "A Chromium extension to Enforce Tenant Restrictions.",
+    "background": {
+        "scripts": ["background.js"]
+      },
+    "incognito": "spanning",
+    "permissions": [
+        "https://login.microsoftonline.com/*",
+        "https://login.microsoft.com/*",
+        "https://login.windows.net/*",
+        "webRequest",
+        "webRequestBlocking"
+    ]
+}
