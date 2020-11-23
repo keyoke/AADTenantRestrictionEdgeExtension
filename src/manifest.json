@@ -7,6 +7,14 @@
         "48": "icons/icon48.png",
        "128": "icons/icon128.png" 
     },
+    "browser_action": {
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "48": "icons/icon48.png",
+            "128": "icons/icon128.png" 
+        },
+        "default_title": "Enforce Azure Active Directory Tenant Restrictions."
+      },
     "description": "A Chromium extension to Enforce Tenant Restrictions.",
     "background": {
         "scripts": ["background.js"]
