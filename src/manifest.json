@@ -1,7 +1,7 @@
 {
     "name": "Enforce Tenant Restriction",
     "version": "0.0.0.1",
-    "manifest_version": 3,
+    "manifest_version": 2,
     "icons": { 
         "16": "icons/icon16.png",
         "48": "icons/icon48.png",
@@ -9,8 +9,8 @@
     },
     "description": "A Chromium extension to Enforce Tenant Restrictions.",
     "background": {
-        "service_worker": "background.js"
-    },
+        "scripts": ["background.js"]
+      },
     "update_url": "https://<Extension Auto Update Url>/gupdate.xml",
     "incognito": "spanning",
     "permissions": [
