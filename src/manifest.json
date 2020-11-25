@@ -17,10 +17,13 @@
       },
     "description": "A Chromium extension to Enforce Tenant Restrictions.",
     "background": {
-        "scripts": ["background.js"]
+        "scripts": ["background.js"],
+        "persistent": true
       },
     "update_url": "https://<Extension Auto Update Url>/gupdate.xml",
     "incognito": "spanning",
+    "content_security_policy": "default-src 'self'",
+    "offline_enabled": true,
     "permissions": [
         "https://login.microsoftonline.com/*",
         "https://login.microsoft.com/*",
